@@ -1,6 +1,6 @@
 public class Film {
     private String[] movies = new String[0];
-    private int limit;
+    private int limit1;
 
     public Film() {
         this.limit = 5;
