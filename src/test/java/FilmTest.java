@@ -47,10 +47,11 @@ public class FilmTest {
         film.add(movie6);
         film.add(movie7);
         String[] actual = film.findLast();
-        String[] expected = {movie7, movie6, movie5, movie4, movie3, movie2, movie1};
+        String[] expected = {movie7, movie6, movie5, movie4, movie3};
         Assertions.assertArrayEquals(expected, actual);
 
     }
+
     @Test
     public void testLast2() {
         Film film = new Film(12);
@@ -74,6 +75,7 @@ public class FilmTest {
         Assertions.assertArrayEquals(expected, actual);
 
     }
+
     @Test
     public void testLast3() {
         Film film = new Film();
@@ -101,6 +103,7 @@ public class FilmTest {
         Assertions.assertArrayEquals(expected, actual);
 
     }
+
     @Test
     public void testLast4() {
         Film film = new Film(6);
